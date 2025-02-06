@@ -11,11 +11,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.51
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.17.48
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.72.2
+	github.com/charlievieth/go-sqlite3 v0.0.0-20250125032832-1e51e930adc0
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/raft v1.7.2
 	github.com/mkideal/cli v0.2.7
 	github.com/mkideal/pkg v0.1.3
-	github.com/rqlite/go-sqlite3 v1.37.0
 	github.com/rqlite/raft-boltdb/v2 v2.0.0-20230523104317-c08e70f4de48
 	github.com/rqlite/rqlite-disco-clients v0.0.0-20250205041826-418f23851d0a
 	github.com/rqlite/sql v0.0.0-20241111133259-a4122fabb196
@@ -79,5 +79,6 @@ require (
 
 replace (
 	github.com/armon/go-metrics => github.com/hashicorp/go-metrics v0.5.1
+	github.com/charlievieth/go-sqlite3 => ../../charlievieth/go-sqlite3
 	golang.org/x/text => golang.org/x/text v0.3.8
 )

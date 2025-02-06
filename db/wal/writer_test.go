@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	_ "github.com/rqlite/go-sqlite3"
+	_ "github.com/charlievieth/go-sqlite3"
 	"github.com/rqlite/rqlite/v8/random"
 )
 
